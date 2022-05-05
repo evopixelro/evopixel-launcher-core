@@ -1,7 +1,7 @@
 {
-  "name": "helios-core",
+  "name": "evopixel-launcher-core",
   "version": "0.1.0",
-  "description": "A library containing core mechanisms for Helios Launcher",
+  "description": "A library containing core mechanisms for EvoPixel Launcher",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
