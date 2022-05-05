@@ -1,4 +1,4 @@
-# Helios-Core
+# EvoPixel-Launcher-Core
 
 A library containing core mechanisms for Helios Launcher
 
@@ -6,7 +6,7 @@ A library containing core mechanisms for Helios Launcher
 
 * Node.js 16 (minimum)
 
-helios-core will always use the same minimum node version as Helios Launcher.
+evopixel-launcher-core will always use the same minimum node version as EvoPixel Launcher.
 
 ## Auth
 
