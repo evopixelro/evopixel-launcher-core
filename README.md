@@ -1,6 +1,6 @@
 # EvoPixel-Launcher-Core
 
-A library containing core mechanisms for Helios Launcher
+A library containing core mechanisms for EvoPixel Launcher
 
 ### Requirements
 
