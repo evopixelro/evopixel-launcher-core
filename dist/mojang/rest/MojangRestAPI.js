@@ -286,7 +286,7 @@ exports.MojangRestAPI = MojangRestAPI;
 MojangRestAPI.logger = LoggerUtil_1.LoggerUtil.getLogger('Mojang');
 MojangRestAPI.TIMEOUT = 2500;
 MojangRestAPI.AUTH_ENDPOINT = 'https://authserver.mojang.com';
-MojangRestAPI.STATUS_ENDPOINT = 'https://mojang-status.herokuapp.com';
+MojangRestAPI.STATUS_ENDPOINT = 'https://minecraft.evopixel.ro/launcher/mojang-status';
 MojangRestAPI.authClient = got_1.default.extend({
     prefixUrl: MojangRestAPI.AUTH_ENDPOINT,
     responseType: 'json',
