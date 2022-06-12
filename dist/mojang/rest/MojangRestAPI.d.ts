@@ -41,7 +41,7 @@ export declare class MojangRestAPI {
     private static readonly logger;
     private static readonly TIMEOUT;
     static readonly AUTH_ENDPOINT = "https://authserver.mojang.com";
-    static readonly STATUS_ENDPOINT = "https://mojang-status.herokuapp.com";
+    static readonly STATUS_ENDPOINT = "https://minecraft.evopixel.ro/launcher/mojang-status";
     private static authClient;
     private static statusClient;
     static readonly MINECRAFT_AGENT: Agent;
