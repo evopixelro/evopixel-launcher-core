@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "description": "A library containing core mechanisms for EvoPixel Launcher",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "tsc": "tsc",
     "build": "npm run clean && npm run tsc",
-    "lint": "eslint . --ext .js,.ts",
-    "test": "cross-env NODE_ENV=test mocha -r ts-node/register --recursive test/**/**/*.ts",
     "bl": "npm run build && npm link",
     "prepack": "npm run build"
   },
@@ -31,8 +30,8 @@
     "url": "git+https://github.com/dfxphoenix/evopixel-launcher-core.git"
   },
   "keywords": [
-    "helios-launcher",
-    "helios-core",
+    "evopixel-launcher",
+    "evopixel-launcher-core",
     "minecraft-launcher"
   ],
   "author": "dFxPhoeniX",
