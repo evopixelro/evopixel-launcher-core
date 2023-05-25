@@ -55,7 +55,7 @@ export class MojangRestAPI {
     private static readonly TIMEOUT = 2500
 
     public static readonly AUTH_ENDPOINT = 'https://authserver.mojang.com'
-    public static readonly STATUS_ENDPOINT = 'https://minecraft.evopixel.ro/launcher/mojang-status'
+    public static readonly STATUS_ENDPOINT = 'https://mojang-status.minecraft.evopixel.ro'
 
     private static authClient = got.extend({
         prefixUrl: MojangRestAPI.AUTH_ENDPOINT,
