@@ -43,7 +43,7 @@ export class MinecraftRestAPI {
                 essential: true
             },
             {
-                service: 'user.auth.xboxlive.com',
+                service: 'auth.xboxlive.com',
                 status: MinecraftStatusColor.GREY,
                 name: 'Xbox Live Auth Server',
                 essential: true
