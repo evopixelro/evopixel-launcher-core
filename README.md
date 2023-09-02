@@ -12,14 +12,9 @@ evopixel-launcher-core will always use the same minimum node version as EvoPixel
 
 ### Supported Auth Providers
 
-* Mojang
 * Microsoft
 
 ### Provider Information
-
-#### Mojang
-
-Mojang authentication makes use of the Yggdrasil scheme. See https://wiki.vg/Authentication
 
 #### Microsoft
 
